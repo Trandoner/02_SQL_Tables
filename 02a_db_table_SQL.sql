@@ -27,3 +27,8 @@ SHOW TABLES;
 
 DESCRIBE coworkers;
 
+INSERT INTO coworkers(firstName,location,age,computer) VALUES("Max","office","35","PC");
+INSERT INTO coworkers(firstName,location,age,computer) VALUES("Trand","pool","32","iPad");
+INSERT INTO coworkers(firstName,location,age,computer) VALUES("Michelle","bed","30","Mac");
+
+SELECT * FROM coworkers;
